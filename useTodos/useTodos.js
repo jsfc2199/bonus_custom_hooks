@@ -1,6 +1,5 @@
-import { useEffect } from "react";
-import { useReducer } from "react";
-import { todoReducer } from "../todoReducer";
+import { useEffect, useReducer } from "react";
+import { todoReducer } from "./todoReducer";
 
 // obtenemos del local storage lo que haya para cargarlo al useReducer
 const init = () => {
